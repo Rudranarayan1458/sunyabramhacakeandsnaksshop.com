@@ -1,0 +1,82 @@
+body{
+    font-family: Arial;
+    background:#fff5f5;
+    margin:0;
+}
+
+header{
+    background:#ff4081;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.shop-info,
+.order,
+.cakes{
+    padding:20px;
+}
+hero{
+    background: url('https://b.zmtcdn.com/data/pictures/chains/2/20223322/5ce043baeff0e05baefaaa324d5254a0.jpg?fit=around|960:500&crop=960:500;*,*');
+    background-size: cover;
+    height: 400px;
+    color: red;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.cake-card{
+    display:inline-block;
+    width:250px;
+    margin:10px;
+    text-align:center;
+}
+
+.cake-card img{
+    width:100%;
+    height:200px;
+    border-radius:10px;
+}
+
+form{
+    width:350px;
+}
+
+input,
+select,
+textarea,
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+
+button{
+    background:#ff4081;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+#result{
+    margin-top:20px;
+    font-weight:bold;
+}
+.snaks-card{
+    display:inline-block;
+    width:250px;
+    margin:10px;
+    text-align:center;
+}
+.snaks-card img{
+    width:100%;
+    height:200px;
+    border-radius:10px;
+}
+form{
+    width:350px;
+}
+#result{
+    margin-top: 20px;
+    font-weight: bold;
+}
