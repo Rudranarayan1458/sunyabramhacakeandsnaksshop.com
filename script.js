@@ -1,0 +1,45 @@
+document.getElementById("orderForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    let name =
+    document.getElementById("name").value;
+
+    let cake =
+    document.getElementById("cake").value;
+
+    let weight =
+    document.getElementById("weight").value;
+
+    let quantity =
+    document.getElementById("quantity").value;
+
+    document.getElementById("result").innerHTML =
+    "✅ Order Successful!<br>" +
+    "Customer: " + name + "<br>" +
+    "Cake: " + cake + "<br>" +
+    "Weight: " + weight + "<br>" +
+    "Quantity: " + quantity;
+});
+document.getElementById("orderForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    let name =
+    document.getElementById("name").value;
+
+    let snaks =
+    document.getElementById("snaks").value;
+
+    let quantity =
+    document.getElementById("quantity").value;
+
+    document.getElementById("result").innerHTML =
+    "✅ Order Successful!<br>" +
+    "Customer: " + name + "<br>" +
+    "Cake: " + snaks + "<br>" +
+    "Weight: " + weight + "<br>" +
+    "Quantity: " + quantity;
+});https://rudranarayan1458.github.io/sunyabramhacakeandsnaksshop.com/
