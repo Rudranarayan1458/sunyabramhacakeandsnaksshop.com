@@ -1,8 +1,6 @@
 document.getElementById("orderForm")
 .addEventListener("submit", function(e){
 
-    e.preventDefault();
-
     let name =
     document.getElementById("name").value;
 
@@ -24,8 +22,6 @@ document.getElementById("orderForm")
 });
 document.getElementById("orderForm")
 .addEventListener("submit", function(e){
-
-    e.preventDefault();
 
     let name =
     document.getElementById("name").value;
