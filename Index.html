@@ -38,15 +38,15 @@
     </div>
 
     <div class="cake-card">
-       <img src="https://magicbakers.in/wp-content/uploads/2025/08/pineapple-cake111.jpg" alt="Pineapple cake"
+       <img src="https://magicbakers.in/wp-content/uploads/2025/08/pineapple-cake111.jpg" alt="Pineapple cake">
     <h3>Pineapple Cake</h3>
     </div>
     <div class="cake-card">
-       <img src="https://legateaucakes.com/cdn/shop/files/rn-image_picker_lib_temp_24d64734-110a-4819-89ba-66fcf3ee4c49.jpg?v=1768495653" alt="Butterscotch cake"
+       <img src="https://legateaucakes.com/cdn/shop/files/rn-image_picker_lib_temp_24d64734-110a-4819-89ba-66fcf3ee4c49.jpg?v=1768495653" alt="Butterscotch cake">
     <h3>Butterscotch Cake</h3>
     </div>
     <div class="cake-card">
-       <img src="https://jambubakers.com/wp-content/uploads/2024/01/Red-Velvet-Heart-Shape-Cake.jpg" alt="Redvelvet cake"
+       <img src="https://jambubakers.com/wp-content/uploads/2024/01/Red-Velvet-Heart-Shape-Cake.jpg" alt="Redvelvet cake">
     <h3>Redvelvet Cake</h3>
     </div>
 </section>
@@ -54,39 +54,39 @@
         <h3>Available snaks</h3>
 
         <div class="snaks-card">
-            <img src="https://wp-cdn.typhur.com/wp-content/uploads/2025/01/homemade-pizza-in-air-fryer.jpg" alt="Pizza"
+            <img src="https://wp-cdn.typhur.com/wp-content/uploads/2025/01/homemade-pizza-in-air-fryer.jpg" alt="Pizza">
             <h3>Pizza</h3>
         </div>
         <div class="snaks-card">
-            <img src="https://5.imimg.com/data5/MX/RQ/YR/ANDROID-55448289/product-jpeg.jpg" alt="Petties"
+            <img src="https://5.imimg.com/data5/MX/RQ/YR/ANDROID-55448289/product-jpeg.jpg" alt="Petties">
             <h3>Petties</h3>
     </div>
     </section>
-    
-
 <section class="order">
     <h2>Order Cake</h2>
 
-    <form id="orderForm">
+    <form action="https://formspree.io/f/mgoqgnyp" method="POST">
 
         <input type="text"
+                name="name"
                id="name"
                placeholder="Customer Name"
                required>
 
         <input type="tel"
+                name="phone"
                id="phone"
                placeholder="Mobile Number"
                required>
 
-        <select id="cake">
+        <select name="product" id="cake">
             <option>Chocolate Cake</option>
             <option>Vanilla Cake</option>
             <option>Strawberry Cake</option>
             <option>Pineapple cake</option>
         </select>
 
-        <select id="weight">
+        <select name="weight" id="weight">
             <option>0.5 KG</option>
             <option>1 KG</option>
             <option>2 KG</option>
@@ -98,12 +98,13 @@
         </select>
 
         <input type="number"
+                name="quantity"
                id="quantity"
                placeholder="Quantity"
                min="1"
                value="1">
 
-        <textarea id="address"
+        <textarea name="address" id="address"
                   placeholder="Delivery Address"></textarea>
 
         <button type="submit">
@@ -120,35 +121,35 @@
 <section class="order">
     <h2>Order snaks</h2>
 
-    <form id="orderForm">
+    <form action="https://formspree.io/f/mgoqgnyp" method="POST">
 
         <input type="text"
+                name="name"
                id="name"
                placeholder="Customer Name"
                required>
 
         <input type="tel"
+                name="phone"
                id="phone"
                placeholder="Mobile Number"
                required>
 
-        <select id="cake">
+            <select name="product" id="cake">
             <option>Chicken petties</option>
             <option>Pannir petties</option>
             <option>Mushroom petties</option>
             <option>Chili Pannir petties</option>
             <option>Pannir Pizza</option>
         </select>
-
-        </select>
-
         <input type="number"
+               name="quantity"
                id="quantity"
                placeholder="Quantity"
                min="1"
                value="1">
 
-        <textarea id="address"
+        <textarea name="address" id="address"
                   placeholder="Delivery Address"></textarea>
 
         <button type="submit">
@@ -163,7 +164,5 @@
 
 <script src="script.js"></script>
 
-</body>
-</html>
 </body>
 </html>
